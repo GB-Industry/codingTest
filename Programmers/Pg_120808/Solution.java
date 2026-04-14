@@ -13,16 +13,16 @@ public class Solution {
         int denom3 = denom1 * denom2;
         int numer3 = numer1 * denom2 + numer2 * denom1;
 
-        int max = 1;
+        int gcd = 1;
 
         for (int i = 1; i <= denom3 && i <= numer3; i++) {
             if (numer3 % i == 0 && denom3 % i == 0){
-                max = i;
+                gcd = i;
             }
         }
 
-        answer[0] = numer3 / max;
-        answer[1] = denom3 / max;
+        answer[0] = numer3 / gcd;
+        answer[1] = denom3 / gcd;
 
         return answer;
     }
