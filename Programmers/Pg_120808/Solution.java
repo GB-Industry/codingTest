@@ -1,4 +1,4 @@
-package Pg_120808;
+package Pg_120808; //분수의 덧셈
 
 public class Solution {
     public static void main(String[] args) {
