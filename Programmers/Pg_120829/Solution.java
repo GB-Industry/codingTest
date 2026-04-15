@@ -1,4 +1,4 @@
-package Pg_120829;
+package Pg_120829;//각도기
 
 public class Solution {
     public static void main(String[] args) {
